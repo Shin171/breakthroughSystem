@@ -1,0 +1,5 @@
+{
+    "require": {
+        "djunehor/laravel-bible": "^1.0"
+    }
+}

@@ -15,7 +15,7 @@
 						$school_year = $school_year_query_row['school_year'];
 						?>
 							<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-							<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
+							<li><a href="#">Batches: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
 							<li><a href="#"><b>Notification</b></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
@@ -83,8 +83,6 @@
 										<div class="pull-right">
 										<i class="icon-calendar"></i>&nbsp;<?php echo $row['date_of_notification']; ?> 
 										</div>
-											
-									
 											
 											</div>
 					<?php

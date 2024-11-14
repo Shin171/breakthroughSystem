@@ -52,7 +52,7 @@
             </div>
             <hr>
             <footer>
-                <p>&copy; Vincent Gabriel 2013</p>
+                <p>&copy; BCF - 2024</p>
             </footer>
         </div>
         <style>

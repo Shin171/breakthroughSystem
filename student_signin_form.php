@@ -1,5 +1,5 @@
 			<form id="signin_student" class="form-signin" method="post">
-			<h3 class="form-signin-heading"><i class="icon-lock"></i> Sign up as Student</h3>
+			<h3 class="form-signin-heading"><i class="icon-lock"></i> Sign up as Disciple</h3>
 			<input type="text" class="input-block-level" id="username" name="username" placeholder="ID Number" required>
 			<input type="text" class="input-block-level" id="firstname" name="firstname" placeholder="Firstname" required>
 			<input type="text" class="input-block-level" id="lastname" name="lastname" placeholder="Lastname" required>

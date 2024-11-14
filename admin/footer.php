@@ -1,5 +1,5 @@
 <div class="pull-right">
 		<footer>
-           <p>Programmed by: Daniel Rasheed Quillosa</p>
+           <p>Breakthrough - 2024</p>
         <footer>
 </div>

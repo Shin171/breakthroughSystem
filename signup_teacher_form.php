@@ -1,5 +1,5 @@
 			<form id="signin_teacher" class="form-signin" method="post">
-					<h3 class="form-signin-heading"><i class="icon-lock"></i> Sign up as Teacher</h3>
+					<h3 class="form-signin-heading"><i class="icon-lock"></i> Sign up as Discipler/h3>
 					<input type="text" class="input-block-level"  name="firstname" placeholder="Firstname" required>
 					<input type="text" class="input-block-level"  name="lastname" placeholder="Lastname" required>
 					<label>Department</label>
@@ -34,7 +34,7 @@
 						success: function(html){
 						if(html=='true')
 						{
-						$.jGrowl("Welcome to CHMSC Learning Management System", { header: 'Sign up Success' });
+						$.jGrowl("Welcome to Breakthrough Learning Management System", { header: 'Sign up Success' });
 						var delay = 1000;
 							setTimeout(function(){ window.location = 'dasboard_teacher.php'  }, delay);  
 						}else{

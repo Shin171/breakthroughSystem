@@ -5,7 +5,7 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                     </a>
-                    <a class="brand" href="#">Learning Management System</a>
+                    <a class="brand" href="#">Breakthrough</a>
                     <div class="nav-collapse collapse">
                  
                     </div>

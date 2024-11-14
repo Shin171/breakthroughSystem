@@ -14,7 +14,7 @@
                                 <div class="span12">
 
 										<?php
-											$mission_query = mysqli_query($conn,"select * from content where title  = 'History' ")or die(mysqli_error());
+											$mission_query = mysqli_query($conn,"select * from content where title  = 'Statement of Faith' ")or die(mysqli_error());
 											$mission_row = mysqli_fetch_array($mission_query);
 											echo $mission_row['content'];
 										?>

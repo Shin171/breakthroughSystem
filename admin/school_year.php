@@ -13,7 +13,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">School Year List</div>
+                                <div class="muted pull-left">Batches List</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">
@@ -24,7 +24,7 @@
 										<thead>
 										  <tr>
 												<th></th>
-												<th>School Year</th>
+												<th>Batch</th>
 												<th></th>
 										   </tr>
 										</thead>

@@ -23,7 +23,7 @@
 					<th>Name</th>
 					<th>ID Number</th>
 			
-					<th>Course Yr & Section</th>
+					<th>Batches and Class</th>
 					<th></th>
 		</tr>
 		</thead>
