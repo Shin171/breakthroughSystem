@@ -1,9 +1,9 @@
    <div class="row-fluid">
-       <a href="teachers.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Teacher</a>
+       <a href="teachers.php" class="btn btn-info"><i class="icon-plus-sign icon-large"></i> Add Discipler</a>
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Edit Teacher</div>
+                                <div class="muted pull-left">Edit Discipler</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">

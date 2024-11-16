@@ -14,7 +14,7 @@
                         <!-- block -->
                         <div id="block_bg" class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Student List</div>
+                                <div class="muted pull-left">Disciple List</div>
                             </div>
                             <div class="block-content collapse in">
 									<div class="span12">
@@ -29,7 +29,7 @@
 													<th>Name</th>
 													<th>ID Number</th>
 											
-													<th>Course Yr & Section</th>
+													<th>Batch and Class</th>
 													<th></th>
 										   </tr>
 										</thead>
