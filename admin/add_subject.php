@@ -12,37 +12,21 @@
 		                        <!-- block -->
 		                        <div class="block">
 		                            <div class="navbar navbar-inner block-header">
-		                                <div class="muted pull-left">Add Subject</div>
+		                                <div class="muted pull-left">Add Batch</div>
 		                            </div>
 		                            <div class="block-content collapse in">
 									<a href="subjects.php"><i class="icon-arrow-left"></i> Back</a>
 									    <form class="form-horizontal" method="post">
 										<div class="control-group">
-											<label class="control-label" for="inputEmail">Subject Code</label>
+											<label class="control-label" for="inputEmail">Batch Code</label>
 											<div class="controls">
-											<input type="text" name="subject_code" id="inputEmail" placeholder="Subject Code">
+											<input type="text" name="subject_code" id="inputEmail" placeholder="Batch Code">
 											</div>
 										</div>
 										<div class="control-group">
-											<label class="control-label" for="inputPassword">Subject Title</label>
+											<label class="control-label" for="inputPassword">Batch Title</label>
 											<div class="controls">
-											<input type="text" class="span8" name="title" id="inputPassword" placeholder="Subject Title" required>
-											</div>
-										</div>
-										<div class="control-group">
-											<label class="control-label" for="inputPassword">Number of Units</label>
-											<div class="controls">
-											<input type="text" class="span1" name="unit" id="inputPassword" required>
-											</div>
-										</div>
-											<div class="control-group">
-											<label class="control-label" for="inputPassword">Semester</label>
-											<div class="controls">
-												<select name="semester">
-													<option></option>
-													<option>1st</option>
-													<option>2nd</option>
-												</select>
+											<input type="text" class="span8" name="title" id="inputPassword" placeholder="Batch Title" required>
 											</div>
 										</div>
 								
@@ -52,8 +36,6 @@
 													<textarea name="description" id="ckeditor_full"></textarea>
 											</div>
 										</div>
-												
-																		
 											
 										<div class="control-group">
 										<div class="controls">

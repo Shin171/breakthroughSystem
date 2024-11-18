@@ -14,10 +14,10 @@
                             <a href="department.php"><i class="icon-chevron-right"></i><i class="icon-building"></i> Department</a>
                         </li>
 						<li>
-                            <a href="students.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Students</a>
+                            <a href="students.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Disciple</a>
                         </li>
 						<li>
-                            <a href="teachers.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Teachers</a>
+                            <a href="teachers.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Discipler</a>
                         </li>
 							<li>
                             <a href="downloadable.php"><i class="icon-chevron-right"></i><i class="icon-download"></i> Downloadable Materials</a>

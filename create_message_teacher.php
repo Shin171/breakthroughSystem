@@ -10,9 +10,9 @@
                                 <div class="span12">
 									<ul class="nav nav-tabs">
 										<li>
-											<a href="teacher_message.php">For Teacher</a>
+											<a href="teacher_message.php">For Discipler</a>
 										</li>
-										<li class="active"><a href="teacher_message_teacher.php">For Student</a></li>
+										<li class="active"><a href="teacher_message_teacher.php">For Discipler</a></li>
 									</ul>
 									
 		

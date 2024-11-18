@@ -11,46 +11,38 @@
 									<div id="" class="muted pull-right"><a href="index.php"><i class="icon-arrow-left"></i> Back</a></div>
 								</div>
                             <div class="block-content collapse in">
-							<h3>Developers</h3>
+							<h3>Pastors</h3>
 							<hr>
                                 <div class="span3">
 										<center>
-										<img id="developers" src="admin/images/dpdiscord.jpg" class="img-circle">
+										<img id="developers" src="admin/images/Pastor glen.jpg" class="img-circle">
 										<hr>
-										<p>Name: Daniel Rasheed Quillosa</p>
-										<p>Address: Bulacan City</p>
-										<p>Email: Daga@gmail.com</p>
-										<p>Position: Programmer</p>
+										<p>Rev. Glenzer M. Fernandez</p>
+										<p>BCF Lead Pastor</p>
 										</center>
 								</div>
                                 <div class="span3">
 															<center>
-								<img id="developers" src="admin/images/picturecarats.jpg" class="img-circle">
+								<img id="developers" src="admin/images/pastora1.jpg" class="img-circle">
 								<hr>
-										<p>Name: Joshua Carats</p>
-										<p>Address: STI City</p>
-										<p>Email: pinat@gmail.com</p>
-										<p>Position: Programmer</p>
+										<p>Rev. Eunice M. Fernandez</p>
+										<p>BCF Admin Pastor</p>
 								</center>
 								</div>
                                 <div class="span3">
 															<center>
-								<img id="developers" src="admin/images/2x2.jpg" class="img-circle">
+								<img id="developers" src="admin/images/pastor poly.jpg" class="img-circle">
 								<hr>
-										<p>Name: Denden</p>
-										<p>Address: Ate neah</p>
-										<p>Email: haha@gmail.com</p>
-										<p>Position: Project Manager</p>
+										<p>Ptr. Polycarp M. Fernandez</p>
+										<p>BCF Main Pastor</p>
 								</center>
 								</div>
                                 <div class="span3">
 															<center>
-								<img id="developers" src="admin/images/dpdiscord.jpg" class="img-circle">
+								<img id="developers" src="admin/images/pastora tricia.jpg" class="img-circle">
 								<hr>
-										<p>Name: Rio Jean Mauleon</p>
-										<p>Address: Walter</p>
-										<p>Email: rio@gmail.com</p>
-										<p>Position: Project Manager</p>
+										<p>Ptra. Trisha Anne C. Fernandez</p>
+										<p>BCF Main Assistant Pastor</p>
 								</center>
 								</div>
                             </div>

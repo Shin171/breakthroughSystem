@@ -23,8 +23,8 @@
 										<thead>
 										  <tr>
 											    <th></th>
-												<th>Subject Code</th>
-												<th>Subject Title</th>
+												<th>Batches Code</th>
+												<th>Bacthes Title</th>
 												<th></th>
 										   </tr>
 										</thead>
