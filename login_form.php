@@ -19,22 +19,22 @@
 									type: "POST",
 									url: "login.php",
 									data: formData,
-									success: function(html){
-									if(html=='true')
-									{
-									$.jGrowl("Loading File Please Wait......", { sticky: true });
-									$.jGrowl("Welcome to Breakthrough System", { header: 'Access Granted' });
-									var delay = 1000;
-										setTimeout(function(){ window.location = 'dasboard_teacher.php'  }, delay);  
-									}else if (html == 'true_student'){
-										$.jGrowl("Welcome to Breakthrough System", { header: 'Access Granted' });
-									var delay = 1000;
-										setTimeout(function(){ window.location = 'student_notification.php'  }, delay);  
-									}else
-									{
-									$.jGrowl("Please Check your username and Password", { header: 'Login Failed' });
-									}
-									}
+									success: function(html) {
+    if (html == 'true') {
+        alert("Access Granted: Loading File. Please wait...");
+        setTimeout(function() {
+            window.location = 'dasboard_teacher.php';
+        }, 1000);
+    } else if (html == 'true_student') {
+        alert("Access Granted: Welcome to Breakthrough System");
+        setTimeout(function() {
+            window.location = 'student_notification.php';
+        }, 1000);
+    } else {
+        alert("Login Failed: Please check your username and password.");
+    }
+}
+
 								});
 								return false;
 							});

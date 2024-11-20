@@ -4,7 +4,7 @@
         <title>Breakthrough</title>
 		<meta name="description" content="Learning Management System">
 		<meta name="keywords" content="Breakthrough Christian Fellowship Church">
-		<meta name="author" content="Capstone 2024">
+		<meta name="author" content="Capstone Project - 2024">
 		<meta charset="UTF-8">
         <!-- Bootstrap -->
 				<link href="admin/images/favicon.ico" rel="icon" type="image">

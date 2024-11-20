@@ -181,20 +181,35 @@ const books = [
             }
         }
 
-        // Fetch random verse of the day
-        async function fetchRandomVerse() {
-            try {
-                const response = await fetch(`https://bible-api.com/John%203:16`);
-                const data = await response.json();
-                if (response.ok) {
-                    randomVerseElement.textContent = `${data.reference} - "${data.text}"`;
-                } else {
-                    randomVerseElement.textContent = "Error fetching random verse.";
-                }
-            } catch (error) {
-                randomVerseElement.textContent = "Error fetching random verse.";
-            }
+       // Fetch random verse of the day with date-based logic
+async function fetchRandomVerse() {
+    try {
+        // Use current date to determine a new "random" verse each day
+        const today = new Date();
+        const dayOfYear = Math.floor((today - new Date(today.getFullYear(), 0, 0)) / 86400000);
+
+        // List of sample references to rotate through based on day of the year
+        const verses = ["John 3:16", "Psalm 23:1", "Genesis 1:1", "Romans 8:28", "Proverbs 3:5"];
+        const verseIndex = dayOfYear % verses.length;
+        const selectedVerse = verses[verseIndex];
+
+        // Fetch the selected verse
+        const response = await fetch(`https://bible-api.com/${selectedVerse}`);
+        const data = await response.json();
+        
+        if (response.ok) {
+            randomVerseElement.textContent = `${data.reference} - "${data.text}"`;
+        } else {
+            randomVerseElement.textContent = "Error fetching random verse.";
         }
+    } catch (error) {
+        randomVerseElement.textContent = "Error fetching random verse.";
+    }
+}
+
+// Initialize
+fetchRandomVerse();
+
 
         // Fetch verse
         async function fetchVerse() {
