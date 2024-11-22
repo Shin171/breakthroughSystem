@@ -9,7 +9,7 @@
 								<form method="post">
 										<div class="control-group">
                                           <div class="controls">
-                                            <input class="input focused" name="school_year" id="focusedInput" type="text" placeholder = "School Year" required>
+                                            <input class="input focused" name="school_year" id="focusedInput" type="text" placeholder = "Batch" required>
                                           </div>
                                         </div>
 										

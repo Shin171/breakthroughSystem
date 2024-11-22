@@ -15,7 +15,7 @@
 										$school_year = $school_year_query_row['school_year'];
 										?>
 											<li><a href="#"><b>My Class</b></a><span class="divider">/</span></li>
-										<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
+										<li><a href="#">Batch: <?php echo $school_year_query_row['school_year']; ?></a><span class="divider">/</span></li>
 										<li><a href="#"><b>Quiz</b></a></li>
 									</ul>
 						 <!-- end breadcrumb -->

@@ -20,7 +20,7 @@
 					     <ul class="breadcrumb">
 							<li><a href="#"><?php echo $class_row['class_name']; ?></a> <span class="divider">/</span></li>
 							<li><a href="#"><?php echo $class_row['subject_code']; ?></a> <span class="divider">/</span></li>
-							<li><a href="#"><b>Subject Overview</b></a></li>
+							<li><a href="#"><b>lesson Overview</b></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 
@@ -44,7 +44,7 @@
 										?>
 										
 										
-										Instructor: <strong><?php echo $row['firstname']; ?> <?php echo $row['lastname']; ?></strong>
+										Discipler: <strong><?php echo $row['firstname']; ?> <?php echo $row['lastname']; ?></strong>
 															<br>
 															<img id="avatar" class="img-polaroid" src="admin/<?php echo $row['location']; ?>" width>
 															<p><a href=""><i class="icon-search"></i> view info</a></p>

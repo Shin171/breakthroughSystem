@@ -2,7 +2,7 @@
                     <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
                         <li> <a href="dashboard.php"><i class="icon-chevron-right"></i><i class="icon-home"></i>&nbsp;Dashboard</a> </li>
 						<li>
-                            <a href="subjects.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Subject</a>
+                            <a href="subjects.php"><i class="icon-chevron-right"></i><i class="icon-list-alt"></i> Lesson</a>
                         </li>
 						<li>
                             <a href="class.php"><i class="icon-chevron-right"></i><i class="icon-group"></i> Class</a>
@@ -35,7 +35,7 @@
                             <a href="activity_log.php"><i class="icon-chevron-right"></i><i class="icon-file"></i> Activity Log</a>
                         </li>
 						<li>
-                            <a href="school_year.php"><i class="icon-chevron-right"></i><i class="icon-calendar"></i> School Year</a>
+                            <a href="school_year.php"><i class="icon-chevron-right"></i><i class="icon-calendar"></i> Batch</a>
                         </li>
 						<li class="">
                             <a href="calendar_of_events.php"><i class="icon-chevron-right"></i><i class="icon-calendar"></i>Calendar of Events</a>

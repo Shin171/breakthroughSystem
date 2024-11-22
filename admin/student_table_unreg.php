@@ -23,7 +23,7 @@
 					<th>Name</th>
 					<th>ID Number</th>
 			
-					<th>Batches and Class</th>
+					<th>Batch and Class</th>
 					<th></th>
 		</tr>
 		</thead>

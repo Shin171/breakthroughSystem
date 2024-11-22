@@ -14,24 +14,22 @@
 			jQuery("#login_form").submit(function(e){
 					e.preventDefault();
 					var formData = jQuery(this).serialize();
-					$.ajax({
-						type: "POST",
-						url: "login.php",
-						data: formData,
-						success: function(html){
-						if(html=='true')
-						{
-						$.jGrowl("Welcome to Breakthrough ADMIN Panel", { header: 'Access Granted' });
-						var delay = 2000;
-							setTimeout(function(){ window.location = 'dashboard.php'  }, delay);  
-						}
-						else
-						{
-						$.jGrowl("Please Check your username and Password", { header: 'Login Failed' });
-						}
-						}
-						
-					});
+$.ajax({
+    type: "POST",
+    url: "login.php",
+    data: formData,
+    success: function(html){
+        if(html == 'true') {
+            alert("Welcome to Breakthrough ADMIN Panel");
+            var delay = 2000;
+            setTimeout(function(){ window.location = 'dashboard.php'; }, delay);
+        }
+        else {
+            alert("Please Check your username and Password");
+        }
+    }
+});
+
 					return false;
 				});
 			});

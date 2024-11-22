@@ -16,7 +16,7 @@
 						$school_year_query_row = mysqli_fetch_array($school_year_query);
 						$school_year = $school_year_query_row['school_year'];
 						?>
-							<li><a href="#">Teachers</a><span class="divider">/</span></li>
+							<li><a href="#">Discipler</a><span class="divider">/</span></li>
 							<li><a href="#"><b>Profile</b></a></li>
 						</ul>
 						 <!-- end breadcrumb -->

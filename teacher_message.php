@@ -16,7 +16,7 @@
 								?>
 								<li><a href="#">Message</a><span class="divider">/</span></li>
 								<li><a href="#"><b>Inbox</b></a><span class="divider">/</span></li>
-								<li><a href="#">School Year: <?php echo $school_year_query_row['school_year']; ?></a></li>
+								<li><a href="#">Batch: <?php echo $school_year_query_row['school_year']; ?></a></li>
 						</ul>
 						 <!-- end breadcrumb -->
 					 

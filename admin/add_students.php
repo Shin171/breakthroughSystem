@@ -2,7 +2,7 @@
                         <!-- block -->
                         <div class="block">
                             <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Add Student</div>
+                                <div class="muted pull-left">Add Disciple</div>
                             </div>
                             <div class="block-content collapse in">
                                 <div class="span12">

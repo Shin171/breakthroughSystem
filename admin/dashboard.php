@@ -53,7 +53,7 @@
                                     <div style="margin-top: 10px;">
                                         <button onclick="fetchVerse()">Get Verse</button>
                                         <button onclick="fetchChapter()">View Chapter</button>
-                                        <button onclick="fetchBook()">View Book</button>
+
                                     </div>
                                     <div id="verseDisplay" style="margin-top: 20px; padding: 15px; border: 1px solid #ddd; background-color: #f9f9f9; border-radius: 5px;">
                                     </div>

@@ -23,41 +23,42 @@
 		
 			
 			<script>
-			jQuery(document).ready(function(){
-			jQuery("#signin_student").submit(function(e){
-					e.preventDefault();
-						
-						var password = jQuery('#password').val();
-						var cpassword = jQuery('#cpassword').val();
-					
-					
-					if (password == cpassword){
-					var formData = jQuery(this).serialize();
-					$.ajax({
-						type: "POST",
-						url: "student_signup.php",
-						data: formData,
-						success: function(html){
-						if(html=='true')
-						{
-						$.jGrowl("Welcome to Breakthrough", { header: 'Sign up Success' });
-						var delay = 2000;
-							setTimeout(function(){ window.location = 'dashboard_student.php'  }, delay);  
-						}else if(html=='false'){
-							$.jGrowl("student does not found in the database Please Sure to Check Your ID Number or Firstname, Lastname and the Section You Belong. ", { header: 'Sign Up Failed' });
-						}
-						}
-						
-						
-					});
-			
-					}else
-						{
-						$.jGrowl("student does not found in the database", { header: 'Sign Up Failed' });
-						}
-				});
-			});
-			</script>
+    jQuery(document).ready(function () {
+        jQuery("#signin_student").submit(function (e) {
+            e.preventDefault();
+
+            var password = jQuery('#password').val();
+            var cpassword = jQuery('#cpassword').val();
+
+            // Check if passwords match - pinalitan koto
+            if (password === cpassword) {
+                var formData = jQuery(this).serialize();
+
+                $.ajax({
+                    type: "POST",
+                    url: "student_signup.php",
+                    data: formData,
+                    success: function (response) {
+                        if (response === 'true') {
+                            alert("Sign Up Successful! Welcome to Breakthrough.");
+                            setTimeout(function () {
+                                window.location = 'dashboard_student.php';
+                            }, 2000); // 2-second delay before redirect
+                        } else if (response === 'false') {
+                            alert("Sign Up Failed! Student not found in the database. Please check your ID number, firstname, lastname, and section.");
+                        }
+                    },
+                    error: function () {
+                        alert("An error occurred during the sign-up process. Please try again later.");
+                    }
+                });
+            } else {
+                alert("Sign Up Failed! Passwords do not match. Please try again.");
+            }
+        });
+    });
+</script>
+
 
 			
 		
