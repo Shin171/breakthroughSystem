@@ -9,19 +9,21 @@
     left: 0;
     width: 100%;
     height: 100%;
-}
-	
+    }
+    .nav{
+        background-color: #3B5998 ;
+    }
 </style>
 <body id="login">
+		<div class="row-fluid nav">
+			<div class="span12"><div class="index-footer"><?php include('link.php'); ?></div></div>
+		</div>
     <div class="container" style="position: relative">
 		<div class="row-fluid">
 			<div class="span6"><div class="title_index"><?php include('title_index.php'); ?></div></div>
 			<div class="span6"><div class="pull-right"><?php include('login_form.php'); ?></div></div>
-		</div>
-		<div class="row-fluid">
-			<div class="span12"><div class="index-footer"><?php include('link.php'); ?></div></div>
-		</div>
 			<?php include('footer.php'); ?>
+		</div>
     </div>
 <?php include('script.php'); ?>
 </body>

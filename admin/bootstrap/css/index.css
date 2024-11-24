@@ -98,7 +98,7 @@ body{
 }
 .chmsc{
 	font-weight: bold;
-	color: #555;
+	color: #f9f9f9;
     font-size: 12px;
     margin-bottom: -10px;
     margin-left: 22px;
@@ -117,11 +117,8 @@ body{
 .title h3 p {
     margin-top: -10px;
 }
-.index-footer{
-
-}
 #login .form-signin:first-child{
-	 margin-top: 70px;
+	 margin-top: 0px;
 	float:none;
 	background: url("../../images/pixel-60fff.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 	-webkit-box-shadow: 2px 2px 5px rgba(0, 0, 6, 0.75);
@@ -146,6 +143,7 @@ body{
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
     color: #FFFFFF !important;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+	border-radius: 16px;
 }
 #login .navbar{
 	margin-top:10px !important;
